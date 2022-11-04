@@ -31,7 +31,10 @@ function Modify() {
         const getOriented = async () => {
             try {
                 const res = await axios.get(`${process.env.REACT_APP_BASE_URL}/oriented/paginated?page=0&size=1000`, { withCredentials: true });
-                setOriented(res.data.info.categories); /* LLama Orientados */
+                setOriented(res.data.info.categories);
+                console.log(res.data)
+                console.log(res.data.info)
+                console.log(res.data.info.categories) /* LLama Orientados */
             } catch (error) {
                 console.log(error);
             }
