@@ -57,7 +57,7 @@ function UserAdmin() {
                   <p className="p-name">
                     {usersapi.name} {usersapi.lastname}
                   </p>
-                  <p className="p-schools">{usersapi.school}</p>
+                  <p className="p-schools">{usersapi.dni}</p>
                 </div>
               </div>
 

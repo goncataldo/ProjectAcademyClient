@@ -204,7 +204,7 @@ function FormOrientado() {
   }, [photoProfile]);
 
   return (
-    <div className="cotainerForm mt-12 mb-10  ml-10 mr-4 md:ml-14 lg:ml-24 lg:mr-4 w-auto">
+    <div className="cotainerForm mt-12 mb-10  ml-8 mr-4 md:ml-14 lg:ml-24 lg:mr-4 w-auto">
       <form
         className=" flex flex-col gap-4 w-56 md:w-full lg:w-full"
         onSubmit={handleSubmit}
