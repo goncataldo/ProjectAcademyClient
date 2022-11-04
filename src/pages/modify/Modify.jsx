@@ -173,7 +173,7 @@ function Modify() {
     });
 
     console.log(selectCounselor[oriented[id - 1]?.counselorId - 1] + "holaholaa")
-    console.log(oriented[oriented.length - 1].counselorId + "esteseldos")
+    console.log(oriented[1].counselorId + "esteseldos")
     console.log(selectCounselor.length + "esteeseltress")
     return (
 
