@@ -99,7 +99,7 @@ function CallStudents() {
 
                                                 <img
                                                     className="img-user"
-                                                    src={`http://localhost:8000/images/${usuario.photoProfile}`}
+                                                    src={`${process.env.REACT_APP_BASE_URL}/images/${usuario.photoProfile}`}
                                                     alt="Foto perfil orientado"
                                                 />
                                                 <div>
