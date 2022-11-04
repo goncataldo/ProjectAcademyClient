@@ -16,8 +16,6 @@ function UserAdmin() {
           withCredentials: true,
         });
         setNewusers(res.data.info.slice(-9));
-        console.log(res.data.info)
-        console.log(newusers)
         setLoadingOriented(false);
 
       } catch (error) {
