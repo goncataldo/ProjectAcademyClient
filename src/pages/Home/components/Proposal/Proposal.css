@@ -1,0 +1,122 @@
+
+.containerProposal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.boxProposalText{
+    width: 864px;
+    height: 211px;
+background-color: #1EC5BB;
+color: #fff;
+border-radius: 8px;
+font-weight: 400;
+padding-left: 30px;
+padding-top: 30px;
+}
+.boxProposalText h2{
+    font-weight: 500;
+  font-size: 24px;
+  
+}
+.boxProposalText p {
+    padding: 0;
+}
+
+/* ---------------- CAJAS PROPUESTA  HIJAS-------------- */
+.boxsProposalChildren{
+    width: 864px;
+   height: auto;
+   display: flex;
+   gap: 50px;
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+    
+}
+
+.proposalBox{
+    color: #2E384D;
+    background-color: #fff; 
+    border-radius: 8px;
+    width: 284px;
+    height: 240px;
+    border: 1px solid #DADEEB;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.proposalBox h3{
+    color: #1EC5BB;
+    width: 70%;
+    font-size: 24px;
+
+}
+
+.pProposalMain{
+    width: 100%;
+}
+
+.pProposal{
+    width:89%;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100px;
+    padding-top: 5px;
+    
+}
+
+.btnInfo{
+    width: 184px;
+    height: 32px;
+    /* margin-top:30px;*/
+    
+    border: 1px solid #2E384D;
+    border-radius: 8px;
+    color: #2E384D;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    justify-self: flex-end; /* no puedo tirar los btones abajo  */
+}
+
+
+/* Media query */
+
+@media (max-width: 916px){
+
+    .boxsProposalChildren{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        left: 0;
+        gap:0;
+        
+    }
+
+    .boxProposalText{
+        width: 100%;
+    }
+
+    .proposalBox{
+        margin: 15px;
+    }
+   
+}
+
+@media (max-width: 340px){
+
+    .proposalBox{
+        margin-top: 30px;
+    }
+
+}
+

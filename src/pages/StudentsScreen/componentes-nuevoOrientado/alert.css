@@ -1,0 +1,284 @@
+.alert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2E384D;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    width: 61%;
+    height: 56px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0px;
+    left: 405px;
+}
+
+
+.show-alert {
+    display: flex;
+    z-index: 11;
+    margin-bottom: 30px;
+}
+
+.hidden-alert {
+    display: none;
+}
+
+.msg-alert {
+    padding-right: 200px;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.msg-alert-counselor {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.iconDelete-alert {
+    cursor: pointer;
+}
+
+
+.msg-alert-counselor-events {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+
+.alert-event {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #2E384D;
+    color: white;
+    font-weight: 500;
+    font-size: 6px;
+    width: 62%;
+    height: 96px;
+    border-radius: 8px;
+    position: fixed;
+    bottom:0px;
+    
+}
+
+
+.msg-alert-event {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.cont-logo-event {
+    padding: 10px;
+}
+
+
+
+.hidden-alert-event {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1050px) {
+
+    .msg-alert {
+        font-size: 13px;
+        padding-right: 100px;
+    }
+
+    .msg-alert-counselor-events {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    .alert {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2E384D;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        width: 61%;
+        height: 56px;
+        border-radius: 8px;
+        position: fixed;
+        bottom: 0px;
+        left: 205px;
+    }
+
+    .hidden-alert {
+        display: none;
+    }
+}
+
+
+@media (max-width: 980px) {
+    .alert-event {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: #2E384D;
+        color: white;
+        font-weight: 500;
+        font-size: 6px;
+        width: 62%;
+        height: 96px;
+        border-radius: 8px;
+        position: fixed;
+        bottom:0px;
+        left: 200px;
+        
+    }
+
+    .hidden-alert-event {
+        display: none;
+    }
+
+    .hidden-alert {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 869px) {
+
+    .alert {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2E384D;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        width: 61%;
+        height: 46px;
+        border-radius: 8px;
+    }
+
+
+    .msg-alert {
+        font-size: 11px;
+        padding-right: 50px;
+    }
+
+
+    .iconChek-alert {
+        width: 12px;
+    }
+
+    .iconDelete-alert {
+        width: 12px;
+    }
+
+    .msg-alert-orientador {
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+
+.hidden-alert {
+    display: none;
+}
+}
+
+
+
+@media (max-width: 695px) {
+
+    .alert {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2E384D;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        width: 61%;
+        height: 76px;
+        border-radius: 8px;
+        position: fixed;
+        bottom: 0px;
+        left: 100px;
+    }
+
+    .hidden-alert {
+        display: none;
+    }
+
+
+    .msg-alert-counselor-events {
+        font-size: 9px;
+        font-family: sans-serif;
+    }
+
+
+
+    .msg-alert {
+        font-size: 9px;
+        padding-right: 0px;
+    }
+
+
+    .iconChek-alert {
+        width: 12px;
+    }
+
+    .iconDelete-alert {
+        width: 10px;
+    }
+
+    .msg-alert-counselor {
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+    .msg-alert-event {
+        padding-top: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+
+    .alert-event {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: #2E384D;
+        color: white;
+        font-weight: 500;
+        font-size: 6px;
+        width: 62%;
+        height: 96px;
+        border-radius: 8px;
+        position: fixed;
+        bottom:0px;
+        left: 100px;
+        
+    }
+    
+    .hidden-alert-event {
+        display: none;
+    }
+
+
+
+}
+
+
+

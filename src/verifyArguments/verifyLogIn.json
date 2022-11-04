@@ -1,0 +1,11 @@
+[
+    {
+        "id": "emailLog",
+        "type": "email"
+    },
+    {
+        "id": "passwordLog",
+        "type": "password",
+        "minLength": 6
+    }
+]

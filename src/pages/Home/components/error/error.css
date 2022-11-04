@@ -1,0 +1,66 @@
+* {
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  .errorBox{
+    width: 100%;
+    height: 553px;
+    background-color: #DADEEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .pError{
+    font-family: rubik;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #2E384D;
+    padding: 10px;
+  }
+
+  .pError2{
+    font-family: rubik;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2E384D;
+    padding: 10px;
+  }
+
+  .spanError{
+    color: #1EC5BB;
+    font-weight: 700;
+  }
+
+  .spanError:hover{
+    color: rgb(7, 140, 193);
+    
+  }
+
+  .linkError{
+    text-decoration: none;
+  }
+
+  /* Media query */
+
+  @media (max-width: 600px){
+    .imgError{
+      width: 300px;
+    }
+
+    .pError{
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .pError2{
+      font-size: 16px;
+    
+    }
+  }
