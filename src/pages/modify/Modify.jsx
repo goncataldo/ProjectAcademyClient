@@ -172,7 +172,7 @@ function Modify() {
         </div>)
     });
 
-    console.log(selectCounselor[oriented[id - 1]?.counselorId - 1])
+    console.log(selectCounselor[oriented[id - 1]?.counselorId - 1] + "holaholaa")
     return (
 
         <div>
