@@ -134,7 +134,7 @@ function FormOrientado() {
         navegate(`/orientados/StudentInfo/${response.data.info}`)
       }
     } catch (err) {
-      const errors = err.response.data.info.errors
+      const errors = err.response.data
 
       for (let i = 0; i < errors.length; i++) {
         setBackMessages(prevBackMessages => ({
