@@ -42,6 +42,7 @@
 }
 
 .name-user{
+    width: 9vw;
     margin-left: 5px;
     line-height: 24px;
     font-size: 16px;
@@ -225,5 +226,13 @@
         margin: 0px 0px 50px 20px;
     }
     
+    .name-user{
+        width: 50px;
+        margin-left: 5px;
+        color: #2E384D;
+        font-family: 'Rubik';
+        font-weight: bold;
+    }
+
 
 }
