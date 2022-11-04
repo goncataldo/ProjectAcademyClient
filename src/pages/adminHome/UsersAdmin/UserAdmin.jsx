@@ -47,7 +47,7 @@ function UserAdmin() {
               key={usersapi.name}
             >
               <div className="flex">
-              <img className="img-users" alt="imagen" src={`http://localhost:8000/images/${usersapi.photoProfile}`}/>
+              <img className="img-users" alt="imagen" src={`${process.env.REACT_APP_BASE_URL}/images/${usersapi.photoProfile}`}/>
                 {/* <img
                   className="img-users"
                   src={require(`http://localhost:8000/images/${usersapi.photoProfile}`)}
