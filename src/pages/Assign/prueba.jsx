@@ -11,7 +11,7 @@ import axios from 'axios';
 function ConfigureUser() {
 
 
-    const URI = "http://localhost:8000/admin/orientados/:id/orientadorToOrientado";
+    const URI = `${process.env.REACT_APP_BASE_URL}/admin/orientados/:id/orientadorToOrientado`;
 
     console.log(URI)
     const handleSubmit = async (e) => {

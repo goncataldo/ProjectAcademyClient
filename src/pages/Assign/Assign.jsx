@@ -99,7 +99,7 @@ function Assign() {
                         <img
                             className="image-profile-student"
                             // src={require(`../../img-back/orientados/${oriented.photoProfile}`)}
-                            src={`http://localhost:8000/images/${orientedCall.photoProfile}`}
+                            src={`${process.env.REACT_APP_BASE_URL}/images/${orientedCall.photoProfile}`}
                             alt="Foto perfil orientado"
                         />
                     </div>
