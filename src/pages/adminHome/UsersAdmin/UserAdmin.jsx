@@ -28,7 +28,7 @@ function UserAdmin() {
   return (
     <div className="flex">
       {loadingOriented ? (
-        <div className="flex justify-center mt-7">
+        <div className="spinner-cd">
           {" "}
           <BeatLoader
             color="#1EC5BB"
@@ -47,7 +47,7 @@ function UserAdmin() {
               key={usersapi.name}
             >
               <div className="flex">
-              <img className="img-users" alt="imagen" src={`${process.env.REACT_APP_BASE_URL}/images/${usersapi.photoProfile}`}/>
+              <img className="img-users" alt="imagen" src={`http://localhost:8000/images/${usersapi.photoProfile}`}/>
                 {/* <img
                   className="img-users"
                   src={require(`http://localhost:8000/images/${usersapi.photoProfile}`)}
@@ -57,7 +57,7 @@ function UserAdmin() {
                   <p className="p-name">
                     {usersapi.name} {usersapi.lastname}
                   </p>
-                  <p className="p-schools">{usersapi.school}</p>
+                  <p className="p-schools">{usersapi.lastname}</p>
                 </div>
               </div>
 
