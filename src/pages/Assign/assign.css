@@ -280,6 +280,12 @@ hr {
 
 
 @media (max-width: 450px) {
+
+    .selector-teacher {
+        width: 200px;
+        margin-bottom: 15px;
+        border-radius: px;
+    }
     
 
     .name-student {
