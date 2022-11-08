@@ -74,7 +74,7 @@ function CallStudents() {
                 </div> {/*Input Buscador*/}
             </div>
 
-            <div className="cont-students flex justify-center">
+            <div className="cont-students">
                 {
                     loadingCallStudents ?
                         <div className='flex justify-center mt-7'> <BeatLoader
