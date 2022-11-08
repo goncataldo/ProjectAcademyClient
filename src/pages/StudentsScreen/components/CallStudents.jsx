@@ -74,7 +74,7 @@ function CallStudents() {
                 </div> {/*Input Buscador*/}
             </div>
 
-            <div className="cont-students">
+            <div className="cont-students flex justify-center">
                 {
                     loadingCallStudents ?
                         <div className='flex justify-center mt-7'> <BeatLoader
@@ -94,7 +94,7 @@ function CallStudents() {
                                     key={usersapi.name}
                                 >
                                     <div className="flex">
-                                        <img className="img-users" alt="imagen" src={`${process.env.REACT_APP_BASE_URL}/images/${usersapi.photoProfile}`} />
+                                        <img className="img-users" alt="imagen" src={`http://localhost:8000/images/${usersapi.photoProfile}`} />
                         
                                         <div className="container-text-oriented">
                                             <p className="text-name">
